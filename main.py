@@ -19,8 +19,6 @@ import os
 import jinja2
 import re
 import logging
-from gaesessions import get_current_session
-from gaesessions import delete_expired_sessions
 from google.appengine.ext import db
 from google.appengine.ext import ndb
 from google.appengine.api import users
