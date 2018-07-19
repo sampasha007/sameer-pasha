@@ -22,6 +22,12 @@ handlers:
 - url: /vendor
   static_dir: static/vendor
 
+- url: /build
+  static_dir: pdf/build
+
+- url: /web
+  static_dir: pdf/web   
+
 - url: .*
   script: main.app
 
